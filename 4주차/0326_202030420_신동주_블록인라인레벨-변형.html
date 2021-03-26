@@ -4,31 +4,62 @@
 <meta charset="utf-8">
 <title>0326</title>
 <style>
-    h1,nav,ul,li,div,dl,dt,dd,dd,table,p,tr,td,span,a,img,button,input{
-        margin: 0;
-        padding: 0;
-        font-size: 16px;
-        font-family: "Noto Sans CJK KR Black","sans-serif";
-        color: #333;
-    }
-    h1{
-        font-size: 30px;
-        font-family: "Kemco Pixel","sans-serif";
-        color: blue;
-    }
-    li{
-        list-style: none;       
-    }
+h1, nav, ul, li, div, dl, dt, dd, dd, table, p, tr, td, span, a, img, button, input {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Noto Sans CJK KR Black", "sans-serif";
+    color: #333;
+}
+h1 {
+    font-size: 30px;
+    font-family: "Kemco Pixel", "sans-serif";
+    color: blue;
+}
+li {
+    list-style: none;
     
+}
+    table, td{
+        border: 1px solid #666;
+        border-collapse: collapse;
+        
+    }
+    span{
+        background-color: antiquewhite;
+        padding: 10px 20px s15px;
+        margin: 10px;
+    }    
     
-    
+    a{
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 700;
+        color: rgba(88,88,122,0.5);
+    }
+    a:hover{
+        color: rgba(88,88,122,1);
+        text-decoration: underline;
+    }
+    button{
+        background-color: #000000;
+        color: #FFFFFF;
+        font-weight: 700;
+        padding: 10px;
+        border: 1px solid rgba(79,79,79,1.00);
+        cursor: pointer;
+    }
+
+    #gnb .gnb-menu{
+        border: 1px solid red;
+    }
 </style>
 </head>
 <body>
 <header>
   <h1>LOGO</h1>
-  <nav>
-    <ul>
+  <nav id="gnb">
+    <ul class="gnb-menu">
       <li>메뉴1</li>
       <li>메뉴2</li>
       <li>메뉴3</li>
@@ -75,14 +106,25 @@
       <td>호에엥</td>
     </tr>
   </table>
+    <br>
   <!--    인라인 레벨-->
-  <div> <span>동해물과 백두산이 마르고 닳도록</span><span> 하느님이 보우하사 우리 나라 만세</span><span>무궁화 산천리 화려 강산</span><span>대한 사람 대한으로 길이 보전하세</span> <a href="0326.html" title="링크임">하하하하하하하핳핳</a> <br>
+  <div> <span>동해물과 백두산이 마르고 닳도록</span><span> 하느님이 보우하사 우리 나라 만세</span><span>무궁화 삼천리 화려 강산</span><span>대한 사람 대한으로 길이 보전하세</span> <a href="0326.html" title="링크임">하하하하하하하핳핳</a> <br><br><br>  
     <img src="sdf.png" alt="배경이미지임" style="width: 200px; height: 200px"><br>
     <input type="date">
     <br>
     <button>바로가기</button>
     <br>
   </div>
+    
+<!--dddddddd-->
+  <div class= "content">콘텐츠 내용</div>
+  <div class= "content strong">콘탠츠 내용</div>
+  <div class= "content">콘텐츠 내용
+    <p>내용</p>
+  </div>
+    
+    
+<!--    sss-->
 </section>
 <footer>문서 정보 영역</footer>
 </body>
