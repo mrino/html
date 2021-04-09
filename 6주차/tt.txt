@@ -1,0 +1,14 @@
+combinators
+
+div p   -> 하위 선택자
+div > p -> 자식 선택자
+div + p -> 인접 형제 선택자
+div ~ p -> 일반 형제 선택자
+
+div p:first-child    -> 첫번째 선택자
+div p:last-child     -> 마지막 선택자
+div p:nth-child(n)   -> n번째 선탁자
+div p:nth-of-tpye(n) -> n번째 선탁자
+
+float: left/ right
+clear: both;
