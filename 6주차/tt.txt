@@ -12,3 +12,8 @@ div p:nth-of-tpye(n) -> n번째 선탁자
 
 float: left/ right
 clear: both;
+
+경로 
+
+절대 경로: 모든 주소를 그대로 적어야됨
+상대 경로: html이 존재하는 주소를 시작점으로 잡고 주소를 적음
