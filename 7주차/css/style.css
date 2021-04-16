@@ -1,11 +1,45 @@
 @charset "utf-8";
 /* CSS Document */
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 div{
-    background-color: aquamarine;
-    
+    position: relative;
+    overflow: hidden;
+    background-color: wheat; 
+
 }
 
+h3{
+    margin: 0;
+    padding: 30px;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+}
+
+section{
+    background-color: #f7f7f7;
+}
+article{
+    float: left;
+    height: 300px;
+    width: 70%;
+    background-color: cornflowerblue;
+}
+aside{
+    float: right;
+    height: 300px;
+    width: 30%;
+    background-color: cadetblue;
+}
+
+
+footer{
+    clear: both;
+    padding: 30px;
+    background-color: gray;
+    color: white;
+    clear: both;
+}
