@@ -73,22 +73,69 @@ footer{
 .test div{
     float: left;
     width: 29%;
- 
     margin: 0 20px;
     padding: 40px 30px;
     box-sizing: border-box;
 }
 .test .ico-img{
     display: block;
-    width: 120px;
-    height: 120px;
-    margin: auto;
-    padding: auto;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 40px;
     background-color: teal;
     border-radius: 50%;
+    text-align: center;
 }
 .test .ico-img:hover{
-    border-radius: 25%;
+    background-color:turquoise;
+    /* border-radius: 25%; */
+}
+
+div:nth-child(2) .ico-img:hover{
+    background-color:turquoise;
+    /* border-radius: 25%; */
+}
+
+div:nth-child(3) .ico-img:hover{
+    background-color:white;
+    /* border-radius: 25%; */
+}
+
+div:nth-child(4) .ico-img:hover{
+    background-color:red;
+    /* border-radius: 25%; */
+}
+
+
+div:nth-child(2) a i{
+    color: black;
+}
+
+div:nth-child(2) a i:hover{
+    color: red;
+}
+
+
+div:nth-child(3) a i{
+    color: white;
+}
+
+div:nth-child(3) a i:hover{
+    color: black;
+}
+
+div:nth-child(4) a i{
+    color: red;
+}
+
+div:nth-child(4) a i:hover{
+    color: blue;
+}
+
+ .ico-img i{
+    font-size: 40px;
+    color: #303030;
 }
 
 .test dl{
@@ -113,5 +160,5 @@ footer{
 .test dd{
     margin: 10px 0;
     color: #555;
-    
+    line-height: 1.5;
 }
