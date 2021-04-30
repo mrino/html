@@ -87,6 +87,19 @@ footer{
     border-radius: 50%;
     text-align: center;
 }
+
+.test .ico-img img{
+    opacity: 0.5;
+    width: 40px;
+    height: 40px;
+}
+
+.test .ico-img:hover img{
+    opacity: 1;
+}
+
+
+
 .test .ico-img:hover{
     background-color:turquoise;
     /* border-radius: 25%; */
@@ -112,7 +125,7 @@ div:nth-child(2) a i{
     color: black;
 }
 
-div:nth-child(2) a i:hover{
+div:nth-child(2) a:hover i{
     color: red;
 }
 
@@ -121,7 +134,7 @@ div:nth-child(3) a i{
     color: white;
 }
 
-div:nth-child(3) a i:hover{
+div:nth-child(3) a:hover i{
     color: black;
 }
 
@@ -129,11 +142,11 @@ div:nth-child(4) a i{
     color: red;
 }
 
-div:nth-child(4) a i:hover{
+div:nth-child(4) a:hover i{
     color: blue;
 }
 
- .ico-img i{
+.ico-img i{
     font-size: 40px;
     color: #303030;
 }
@@ -162,3 +175,4 @@ div:nth-child(4) a i:hover{
     color: #555;
     line-height: 1.5;
 }
+
