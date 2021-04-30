@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.newsWrap{
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    background-color: wheat;
+}
+
+.newsWrap h3{
+    font-size: 24px;
+    color: #222;
+}
+
+.btn-more{
+    /* display: inline-block; */
+    float: right;
+    width: 24px;
+    height: 24px;
+    background: url("../img/plus-solid.svg") no-repeat center center;
+    background-size: 14px;
+    text-indent: -9999px;
+    opacity: 0.5;
+    color: transparent;
+    margin-top: 4px;
+}
+
+.btn-more:hover{
+    opacity: 1;   
+}
