@@ -2,17 +2,23 @@
 /* CSS Document */
 
 
+
+
 .newsWrap{
     position: relative;
     overflow: hidden;
-    padding: 20px;
-    background-color: wheat;
+    padding: 25px 25px 30px;
+    
+    border: 1px solid #ccc;
 
 }
 
 .newsWrap h3{
     font-size: 24px;
     color: #222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .btn-more{
@@ -32,4 +38,64 @@
 
 .btn-more:hover{
     opacity: 1;   
+}
+
+.thumbnail-list{
+    height: 120px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.thumbnail-list div, .thumbnail-list dl{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.thumbnail-list div{
+    width: 120px;
+    margin-right: 25px;
+}
+.list a{
+    text-decoration: none;
+}
+
+.list a:hover{
+    text-decoration: underline;
+}
+
+.list{
+    width: calc(100% - 200px);
+    margin: 0;
+}
+
+.list dt a{
+    display: block;
+    
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list dt a:hover{
+    text-decoration: none;
+    color: #0025b3;
+}
+.list dd{
+    margin: 0;
+    color: #707070;
+}
+
+.list .box-txt a{
+    display: -webkit-box;
+    margin-top: 10px;
+    color: #404040;
+    overflow: hidden;
+    height: 45px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
 }
