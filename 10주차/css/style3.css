@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.newsWrap{
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    background-color: wheat;
+
+}
+
+.newsWrap h3{
+    font-size: 24px;
+    color: #222;
+}
+
+.btn-more{
+    display: inline-block;
+    float: right;
+    width: 24px;
+    height: 24px;
+    background: url("../img/plus-solid.svg") no-repeat center center;
+    background-size: 24px 24px;
+    text-indent: -9999px;
+    opacity: 0.5;
+    font-size: 0;
+    color: transparent;
+    /* vertical-align: middle; 중간 맞춤  */
+    margin-top: 4px;
+}
+
+.btn-more:hover{
+    opacity: 1;   
+}
