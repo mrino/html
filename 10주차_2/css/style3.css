@@ -12,6 +12,9 @@
 .newsWrap h3{
     font-size: 24px;
     color: #222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .btn-more{
