@@ -15,12 +15,12 @@
 }
 
 .btn-more{
-    /* display: inline-block; */
+    display: inline-block;
     float: right;
     width: 24px;
     height: 24px;
     background: url("../img/plus-solid.svg") no-repeat center center;
-    background-size: 14px;
+    background-size: 70% 100%;
     text-indent: -9999px;
     opacity: 0.5;
     color: transparent;
@@ -29,4 +29,48 @@
 
 .btn-more:hover{
     opacity: 1;   
+}
+
+dl , dt, dd {
+    margin: 0;
+}
+
+.thumbnail-list{
+    margin-top: 20px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.thumbnail-list div{
+    float: left;
+}
+
+.list {
+    display: inline-block;
+    width: calc(100% - 185px);
+    margin-left: 20px;
+}
+
+.list  a{
+    text-decoration: none;
+    color: #404040;
+}
+
+.list a:hover{
+    text-decoration: underline;
+    color: #222;
+}
+
+.list dt a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0039aa;
+}
+.list dt a:hover{
+    color: #003977;
+}
+
+.list dd{
+    margin-top: 10px;
+    color: #707070;
 }
